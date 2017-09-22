@@ -22,10 +22,3 @@ dev.off()
 
 
 
-
-
-
-#Plot 2
- with(PowerConsDS,plot(dias,global_active_power))
-
-
