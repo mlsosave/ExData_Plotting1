@@ -1,9 +1,13 @@
+## Because I m in Uruguay my time zone was set on Spain Language. I changed to English. 
+
 ##> Sys.getlocale("LC_TIME")
 ##[1] "Spanish_Spain.1252"
-Sys.setlocale("LC_TIME", "English")
-> Sys.getlocale("LC_TIME")
-[1] "English_United States.1252"
+##Sys.setlocale("LC_TIME", "English")
+##> Sys.getlocale("LC_TIME")
+##[1] "English_United States.1252"
 
+
+## This is the part for download and unzip de data. 
 
 setwd("C:\\Laura\\DataScientist\\Exploratory Data Analysis\\Project_Assignment")
 fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
